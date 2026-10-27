@@ -1,0 +1,29 @@
+{
+  "prefix": "retail",
+  "name": "Retail",
+  "title": "Retail — антифрод-решение для ритейла на Интеллект X",
+  "repo": "https://github.com/soulhome2/Retail",
+  "review_scope": "технического задания антифрод-решения для ритейла (кассы и КСО, титры чеков, сценарии POS и RETAIL, конструктор правил, инциденты), входных документов и прототипов интерфейса",
+  "modules": [],
+  "checks": {
+    "ids": [
+      {
+        "pattern": "(?:POS|RETAIL|ANL|LOG)-\\d+",
+        "files": [
+          "Specification/Technical_Specification_v3.MD"
+        ],
+        "define": "heading",
+        "refs": [
+          "Specification/Technical_Specification_v3.MD",
+          "prototype",
+          "README.md"
+        ]
+      }
+    ],
+    "pages": [
+      "prototype/index.html",
+      "prototype/short_version.html"
+    ],
+    "links_ignore": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python tools/kit/check_links.py)",
+      "Bash(python3 tools/kit/check_links.py)",
+      "Bash(python tools/kit/check_ids.py)",
+      "Bash(python3 tools/kit/check_ids.py)",
+      "Bash(python tools/kit/check_ids.py --unused)",
+      "Bash(python3 tools/kit/check_ids.py --unused)",
+      "Bash(python tools/kit/check_page.py *)",
+      "Bash(python3 tools/kit/check_page.py *)",
+      "Bash(python tools/kit/check_page.py)",
+      "Bash(python3 tools/kit/check_page.py)",
+      "Bash(git status)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git rev-parse *)",
+      "Bash(git fetch)"
+    ],
+    "ask": [
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ],
+    "deny": [
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git reset --hard)",
+      "Bash(git reset --hard *)",
+      "Bash(git clean)",
+      "Bash(git clean *)",
+      "Bash(git diff *--output*)",
+      "Bash(git log *--output*)"
+    ]
+  }
+}

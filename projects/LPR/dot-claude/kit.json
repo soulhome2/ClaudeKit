@@ -1,0 +1,50 @@
+{
+  "prefix": "lpr",
+  "name": "LPR",
+  "title": "LPR — распознавание ГРЗ для Интеллект X",
+  "repo": "https://github.com/soulhome2/LPR",
+  "review_scope": "технического задания LPR (распознавание ГРЗ на RoadAR, КПП, парковки, списки контроля, расследования), функциональных требований и прототипа интерфейса",
+  "modules": [],
+  "checks": {
+    "ids": [
+      {
+        "pattern": "LPR-[A-Z]+-\\d+",
+        "files": [
+          "Specification/ТЗ_LicensePlateRecognition_Интеллект_X.md"
+        ],
+        "define": "table",
+        "refs": [
+          "Specification",
+          "prototypes",
+          "README.md"
+        ]
+      },
+      {
+        "pattern": "NFR-[A-Z]+-\\d+",
+        "files": [
+          "Specification/ТЗ_LicensePlateRecognition_Интеллект_X.md"
+        ],
+        "define": "table",
+        "refs": [
+          "Specification",
+          "prototypes"
+        ]
+      },
+      {
+        "pattern": "UI-\\d+",
+        "files": [
+          "Specification/ТЗ_LicensePlateRecognition_Интеллект_X.md"
+        ],
+        "define": "bullet",
+        "refs": [
+          "Specification",
+          "prototypes"
+        ]
+      }
+    ],
+    "pages": [
+      "prototypes/index.html"
+    ],
+    "links_ignore": []
+  }
+}
